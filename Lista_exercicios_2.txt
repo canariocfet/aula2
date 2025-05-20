@@ -1,0 +1,36 @@
+1. Modularização: Inserir todas as função que estão no código principal para dentro
+do módulo simtoseis_library, de forma que no código principal você
+possa fazer apenas a chamada da mesma através da importação do módulo.
+
+2. Modularização: criar a função "calcular_residuos" e inserir ela no módulo 
+simtoseis_library.
+
+3. Modularização: Parâmetro proporcao_treino=0.75 tendo que ser declarado "por fora",
+explicitamente para poder rodar a última célula do código.
+Faça as devidas modificações na função para que ela já possa fornecer
+esse parâmetro automaticamente.
+
+4. Repare que os plots de histogramas estão todos saindo com o mesmo 
+titulo mas se referem a dados diferentes. Faça as alterações na função
+de plot do histograma para dar flexibilidade de gerar o título adequado.
+
+5. Conecte o MLFLow e registre todos os experimentos que você realizou
+ nele.
+
+6. Crie um repositório no seu GitHub pessoal(pode deixar privado ou
+público a seu critério) para versionar o seu código.
+
+7. Faça um clone do seu repositório externo no GitHub para o seu Git
+local para que você possa trabalhar nele localmente.
+
+Entregáveis:
+1-Código principal que importa o módulo principal simtoseis_library e
+chama as funções dele em .py
+2-Código do módulo simtoseis_library.py
+3-Imagem da página URL do MLFlow com os registros dos respectivos 
+experimentos(formato .png ou .jpeg ou .jpg)
+4-Imagem dos códigos no seu repositório do GitHub(formato .png ou .jpeg ou .jpg)
+5.Imagem do clone no seu Git local(formato .png ou .jpeg ou .jpg)
+
+
+
