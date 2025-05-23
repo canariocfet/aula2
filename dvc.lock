@@ -1,0 +1,90 @@
+schema: '2.0'
+stages:
+  cleaning:
+    cmd: python src/cleaning.py
+    deps:
+    - path: data/seismic_slice.npy
+      hash: md5
+      md5: b89efbbc51b4003adb9191a9bcde8951
+      size: 9314720
+    - path: data/sim_slice.npy
+      hash: md5
+      md5: c5755d17e2985bfcb90731e71f6b2e47
+      size: 70112
+    - path: src/cleaning.py
+      hash: md5
+      md5: 5b6bfe0edcffcb038d7fa3bc2f602cf9
+      size: 951
+    outs:
+    - path: outputs/seismic_slice_clean.npy
+      hash: md5
+      md5: 5b0fec0bf1887e366641f70ee2331510
+      size: 9314720
+    - path: outputs/sim_clean.npy
+      hash: md5
+      md5: a1708ba6bf248dbd4990063fd5c9377c
+      size: 70112
+  training:
+    cmd: python src/training.py
+    deps:
+    - path: outputs/sim_clean.npy
+      hash: md5
+      md5: a1708ba6bf248dbd4990063fd5c9377c
+      size: 70112
+    - path: src/training.py
+      hash: md5
+      md5: 053339817a115099d2804546be5da462
+      size: 645
+    outs:
+    - path: outputs/X.npy
+      hash: md5
+      md5: fca0688ce60ad3e490807a904cb1fede
+      size: 52616
+    - path: outputs/y.npy
+      hash: md5
+      md5: d6c61a3e4819d8475fe3743553bc0ef1
+      size: 17624
+  inference:
+    cmd: python src/inference.py
+    deps:
+    - path: data/seismic_slice.npy
+      hash: md5
+      md5: b89efbbc51b4003adb9191a9bcde8951
+      size: 9314720
+    - path: outputs/model.pkl
+      hash: md5
+      md5: 340e901a8324847e89dd6a12add07dc9
+      size: 21599057
+    - path: src/inference.py
+      hash: md5
+      md5: ba4e6b66444ac000314923ce153d0279
+      size: 749
+    outs:
+    - path: outputs/seis_estimated.npy
+      hash: md5
+      md5: 899915a74f94ac83cabe589ac5bfcf12
+      size: 9314720
+  evaluation:
+    cmd: python src/evaluation.py
+    deps:
+    - path: data/seismic_slice_GT.npy
+      hash: md5
+      md5: 038bcf2c0c0e0e836e140cbe9350bedd
+      size: 9314720
+    - path: outputs/seis_estimated.npy
+      hash: md5
+      md5: 899915a74f94ac83cabe589ac5bfcf12
+      size: 9314720
+    - path: outputs/sim_clean.npy
+      hash: md5
+      md5: a1708ba6bf248dbd4990063fd5c9377c
+      size: 70112
+    - path: src/evaluation.py
+      hash: md5
+      md5: ec2496eeb19ff2c4c8c7dfa52f401a7a
+      size: 1685
+    outs:
+    - path: outputs/residuos.npy
+      hash: md5
+      md5: 7779776ea829226a4acea0bf70eb7aa1
+      size: 9314720
