@@ -1,6 +1,0 @@
-artifact_location: ./mlruns/3
-creation_time: 1748397059752
-experiment_id: '3'
-last_update_time: 1748397059752
-lifecycle_stage: active
-name: automl_pycaret

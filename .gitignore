@@ -1,0 +1,9 @@
+# Ignorar arquivos binários e pastas que não devem ir para o GitHub
+__pycache__/
+*.pyc
+*.pkl
+*.npy
+mlruns/
+logs.log
+*.db
+outputs/
