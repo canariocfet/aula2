@@ -1890,3 +1890,27 @@ Name: Propriedade, Length: 657, dtype: float32
 2025-05-28 23:14:35,553:INFO:Preloading libraries
 2025-05-28 23:14:35,554:INFO:Set up data.
 2025-05-28 23:14:35,582:INFO:Set up index.
+2025-05-29 00:10:42,091:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-29 00:10:42,091:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-29 00:10:42,091:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-29 00:10:42,092:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-29 00:10:42,448:INFO:Initializing load_model()
+2025-05-29 00:10:42,448:INFO:load_model(model_name=outputs/best_model_pycaret, platform=None, authentication=None, verbose=True)
+2025-05-29 00:10:45,255:INFO:Initializing predict_model()
+2025-05-29 00:10:45,255:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001C19ADA6C10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['X', 'Y', 'Z'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001C1A21551F0>)
+2025-05-29 00:10:45,255:INFO:Checking exceptions
+2025-05-29 00:10:45,255:INFO:Preloading libraries
+2025-05-29 00:10:45,261:INFO:Set up data.
+2025-05-29 00:10:45,313:INFO:Set up index.

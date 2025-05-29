@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Modulo 4. inference.py ➞ aplica inferência no seismic_slice
 
 import numpy as np
@@ -25,7 +24,7 @@ np.save("outputs/seis_estimated.npy", seis_estimated)
 print("Inferencia Pronta")
 
 #### FIM
-=======
+
 ### inference.py – aplica o modelo treinado do PyCaret aos dados sísmicos
 
 import numpy as np
@@ -61,4 +60,3 @@ with mlflow.start_run(run_name="inference_automl"):
     predictions.to_csv("outputs/seismic_predictions.csv", index=False)
 
 print("Inferência com PyCaret concluída.")
->>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
