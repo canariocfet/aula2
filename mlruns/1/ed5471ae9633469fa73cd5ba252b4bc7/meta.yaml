@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/ed5471ae9633469fa73cd5ba252b4bc7/artifacts
+end_time: 1748483807641
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: ed5471ae9633469fa73cd5ba252b4bc7
+run_name: Passive Aggressive Regressor
+run_uuid: ed5471ae9633469fa73cd5ba252b4bc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748483807091
+status: 3
+tags: []
+user_id: Dell

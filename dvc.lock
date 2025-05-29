@@ -11,9 +11,19 @@ stages:
       hash: md5
       md5: c5755d17e2985bfcb90731e71f6b2e47
       size: 70112
+<<<<<<< HEAD
     - path: src/cleaning.py
       hash: md5
       md5: 5b6bfe0edcffcb038d7fa3bc2f602cf9
+=======
+    - path: modulo/aula3_modulo_mlops.py
+      hash: md5
+      md5: f4dbf4f9516258d5af387f52f276390c
+      size: 11496
+    - path: src/cleaning.py
+      hash: md5
+      md5: 6add1e0a4f64a8046ebb5d05aa23be54
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
       size: 951
     outs:
     - path: outputs/seismic_slice_clean.npy
@@ -25,12 +35,22 @@ stages:
       md5: a1708ba6bf248dbd4990063fd5c9377c
       size: 70112
   training:
+<<<<<<< HEAD
     cmd: python src/training.py
     deps:
+=======
+    cmd: python src/training_automl.py
+    deps:
+    - path: modulo/aula3_modulo_mlops.py
+      hash: md5
+      md5: f4dbf4f9516258d5af387f52f276390c
+      size: 11496
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
     - path: outputs/sim_clean.npy
       hash: md5
       md5: a1708ba6bf248dbd4990063fd5c9377c
       size: 70112
+<<<<<<< HEAD
     - path: src/training.py
       hash: md5
       md5: 053339817a115099d2804546be5da462
@@ -64,6 +84,61 @@ stages:
       hash: md5
       md5: 899915a74f94ac83cabe589ac5bfcf12
       size: 9314720
+=======
+    - path: src/training_automl.py
+      hash: md5
+      md5: dd7da55fa3c2bca14fa246ef767d4947
+      size: 1503
+    outs:
+    - path: outputs/X.npy
+      hash: md5
+      md5: 71f7ce231d973f5b1d1f732fa4e96bd1
+      size: 26372
+    - path: outputs/best_model_pycaret.pkl
+      hash: md5
+      md5: 1857cf5139059c30298f7912549648ba
+      size: 13042259
+    - path: outputs/y.npy
+      hash: md5
+      md5: 98d94c1541e89d9657db431e4c80b02a
+      size: 8876
+  inference:
+    cmd: python src/inference.py
+    deps:
+    - path: modulo/aula3_modulo_mlops.py
+      hash: md5
+      md5: f4dbf4f9516258d5af387f52f276390c
+      size: 11496
+    - path: outputs/X.npy
+      hash: md5
+      md5: 71f7ce231d973f5b1d1f732fa4e96bd1
+      size: 26372
+    - path: outputs/best_model_pycaret.pkl
+      hash: md5
+      md5: 1857cf5139059c30298f7912549648ba
+      size: 13042259
+    - path: outputs/seismic_slice_clean.npy
+      hash: md5
+      md5: 5b0fec0bf1887e366641f70ee2331510
+      size: 9314720
+    - path: outputs/y.npy
+      hash: md5
+      md5: 98d94c1541e89d9657db431e4c80b02a
+      size: 8876
+    - path: src/inference.py
+      hash: md5
+      md5: 26b237ad6ad6d666437a1d9d411fb476
+      size: 1308
+    outs:
+    - path: outputs/seis_estimated.npy
+      hash: md5
+      md5: 2a705414c30d474c13884429fdb46341
+      size: 9314720
+    - path: outputs/seismic_predictions.csv
+      hash: md5
+      md5: 51efe3e16ecc331df63ca0acfaf5c3e3
+      size: 16933299
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
   evaluation:
     cmd: python src/evaluation.py
     deps:
@@ -71,9 +146,19 @@ stages:
       hash: md5
       md5: 038bcf2c0c0e0e836e140cbe9350bedd
       size: 9314720
+<<<<<<< HEAD
     - path: outputs/seis_estimated.npy
       hash: md5
       md5: 899915a74f94ac83cabe589ac5bfcf12
+=======
+    - path: modulo/aula3_modulo_mlops.py
+      hash: md5
+      md5: f4dbf4f9516258d5af387f52f276390c
+      size: 11496
+    - path: outputs/seis_estimated.npy
+      hash: md5
+      md5: 2a705414c30d474c13884429fdb46341
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
       size: 9314720
     - path: outputs/sim_clean.npy
       hash: md5
@@ -81,6 +166,7 @@ stages:
       size: 70112
     - path: src/evaluation.py
       hash: md5
+<<<<<<< HEAD
       md5: ec2496eeb19ff2c4c8c7dfa52f401a7a
       size: 1685
     outs:
@@ -88,3 +174,28 @@ stages:
       hash: md5
       md5: 7779776ea829226a4acea0bf70eb7aa1
       size: 9314720
+=======
+      md5: b20e4a97cf953515f9e3ce6e6e018658
+      size: 1941
+    outs:
+    - path: outputs/residuos.npy
+      hash: md5
+      md5: c2134e17e7ccf1ed4fbcfa412f6be5cb
+      size: 9314720
+  training_automl:
+    cmd: python src/training_automl.py
+    deps:
+    - path: outputs/sim_clean.npy
+      hash: md5
+      md5: a1708ba6bf248dbd4990063fd5c9377c
+      size: 70112
+    - path: src/training_automl.py
+      hash: md5
+      md5: 3c9361eae53cd47f84b62510da47a82f
+      size: 782
+    outs:
+    - path: outputs/best_model_pycaret.pkl
+      hash: md5
+      md5: 1857cf5139059c30298f7912549648ba
+      size: 13042259
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)

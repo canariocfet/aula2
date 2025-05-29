@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/c34cadd6bf2247fb83bb0bc6129eb4e4/artifacts
+end_time: 1748483803940
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: c34cadd6bf2247fb83bb0bc6129eb4e4
+run_name: Least Angle Regression
+run_uuid: c34cadd6bf2247fb83bb0bc6129eb4e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748483803588
+status: 3
+tags: []
+user_id: Dell

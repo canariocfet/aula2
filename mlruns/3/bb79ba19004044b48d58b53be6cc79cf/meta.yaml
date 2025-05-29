@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/3/bb79ba19004044b48d58b53be6cc79cf/artifacts
+end_time: 1748397175313
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: bb79ba19004044b48d58b53be6cc79cf
+run_name: Lasso Regression
+run_uuid: bb79ba19004044b48d58b53be6cc79cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748397174651
+status: 3
+tags: []
+user_id: Dell

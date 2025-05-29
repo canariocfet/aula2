@@ -3,7 +3,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
+<<<<<<< HEAD
 from modulo import aula2_modulo_mlops as sts
+=======
+from modulo import aula3_modulo_mlops as sts
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
 import mlflow
 
 #Dados Treino
@@ -40,6 +44,17 @@ sts.plot_seismic_slice(seismic_slice_residual_final, title = "Slice a profundida
 
 np.save("outputs/residuos.npy", seismic_slice_residual_final)
 
+<<<<<<< HEAD
+=======
+# Log no MLflow
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment("projeto_aula4_mlops")
+
+with mlflow.start_run(run_name="evaluation"):
+    mlflow.log_artifact("outputs/residuos.npy")    
+    print("Avaliação registrada no MLflow")
+
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
 print("Plotting Pronto")
 
 ### FIM

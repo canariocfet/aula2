@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/3/3e94d870f8e8413da194ab4f0c7fa160/artifacts
+end_time: 1748397168046
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+run_id: 3e94d870f8e8413da194ab4f0c7fa160
+run_name: Random Forest Regressor
+run_uuid: 3e94d870f8e8413da194ab4f0c7fa160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748397162814
+status: 3
+tags: []
+user_id: Dell

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/0f8fa5a17c594b049f41c0959964efb2/artifacts
+end_time: 1748484879070
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 0f8fa5a17c594b049f41c0959964efb2
+run_name: inference_automl
+run_uuid: 0f8fa5a17c594b049f41c0959964efb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748484875506
+status: 3
+tags: []
+user_id: Dell

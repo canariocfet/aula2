@@ -1,0 +1,28 @@
+# src/training_automl.py
+
+import numpy as np
+import pandas as pd
+import joblib
+import mlflow
+from pycaret.regression import *
+
+# Carrega os dados de treino
+sim_clean = np.load("outputs/sim_clean.npy")
+
+# Converte para DataFrame
+df = pd.DataFrame(sim_clean, columns=["X", "Y", "Z", "Propriedade"])
+
+# Inicializa experiment tracking
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment("projeto_aula4_pycaret")
+
+# Setup do PyCaret
+s = setup(data=df, target="Propriedade", session_id=123, silent=True, log_experiment=True, experiment_name="automl_pycaret", log_plots=True)
+
+# Compara todos os modelos
+best_model = compare_models()
+
+# Salva modelo final
+save_model(best_model, "outputs/best_model_pycaret")
+
+print("AutoML com PyCaret finalizado!")

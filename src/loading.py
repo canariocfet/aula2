@@ -31,7 +31,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
+<<<<<<< HEAD
 import aula2_modulo_mlops as sts
+=======
+import aula3_modulo_mlops as sts
+>>>>>>> 2950874 (Versão com AutoML PyCaret + DVC + MLflow funcionando)
 import mlflow
 
 #Dados Treino

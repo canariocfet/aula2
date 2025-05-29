@@ -1,0 +1,648 @@
+absl-py==2.1.0
+ace_tools==0.0
+adagio==0.2.6
+adal==1.2.7
+aiofiles==22.1.0
+aiohttp==3.9.5
+aiohttp-retry==2.8.3
+aiosignal==1.3.1
+aiosqlite==0.19.0
+alembic==1.14.0
+altair==5.4.1
+altgraph==0.17.4
+amqp==5.3.1
+ansi2html==1.8.0
+antlr4-python3-runtime==4.9.3
+anyio @ file:///C:/ci/anyio_1644463701441/work/dist
+aplr==10.8.0
+appdirs==1.4.4
+applicationinsights==0.11.10
+argcomplete==3.3.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569878360/work
+arrow==1.3.0
+art==6.3
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+astunparse==1.6.3
+async-timeout==4.0.3
+asyncio==3.4.3
+asyncssh==2.21.0
+atpublic==5.0
+attrs @ file:///C:/b/abs_35n0jusce8/croot/attrs_1695717880170/work
+azure==4.0.0
+azure-ai-textanalytics==5.3.0
+azure-appconfiguration==1.7.1
+azure-applicationinsights==0.1.1
+azure-batch==14.2.0
+azure-cli==2.66.0
+azure-cli-core==2.66.0
+azure-cli-telemetry==1.1.0
+azure-common==1.1.28
+azure-core==1.32.0
+azure-cosmos==3.2.0
+azure-cosmosdb-nspkg==2.0.2
+azure-cosmosdb-table==1.0.6
+azure-data-tables==12.4.0
+azure-datalake-store==0.0.53
+azure-eventgrid==1.3.0
+azure-graphrbac==0.40.0
+azure-identity==1.20.0
+azure-keyvault==1.1.0
+azure-keyvault-administration==4.4.0b2
+azure-keyvault-certificates==4.7.0
+azure-keyvault-keys==4.9.0b3
+azure-keyvault-secrets==4.7.0
+azure-loganalytics==0.1.1
+azure-mgmt==4.0.0
+azure-mgmt-advisor==9.0.0
+azure-mgmt-apimanagement==4.0.0
+azure-mgmt-appconfiguration==3.0.0
+azure-mgmt-appcontainers==2.0.0
+azure-mgmt-applicationinsights==1.0.0
+azure-mgmt-authorization==4.0.0
+azure-mgmt-batch==17.3.0
+azure-mgmt-batchai==7.0.0b1
+azure-mgmt-billing==6.0.0
+azure-mgmt-botservice==2.0.0
+azure-mgmt-cdn==12.0.0
+azure-mgmt-cognitiveservices==13.5.0
+azure-mgmt-commerce==1.0.1
+azure-mgmt-compute==33.0.0
+azure-mgmt-consumption==2.0.0
+azure-mgmt-containerinstance==10.1.0
+azure-mgmt-containerregistry==10.3.0
+azure-mgmt-containerservice==32.1.0
+azure-mgmt-core==1.5.0
+azure-mgmt-cosmosdb==9.6.0
+azure-mgmt-databoxedge==1.0.0
+azure-mgmt-datafactory==0.6.0
+azure-mgmt-datalake-analytics==0.6.0
+azure-mgmt-datalake-nspkg==3.0.1
+azure-mgmt-datalake-store==0.5.0
+azure-mgmt-datamigration==10.0.0
+azure-mgmt-devspaces==0.1.0
+azure-mgmt-devtestlabs==4.0.0
+azure-mgmt-dns==8.0.0
+azure-mgmt-eventgrid==10.2.0b2
+azure-mgmt-eventhub==10.1.0
+azure-mgmt-extendedlocation==1.0.0b2
+azure-mgmt-hanaonazure==0.1.1
+azure-mgmt-hdinsight==9.0.0b3
+azure-mgmt-imagebuilder==1.3.0
+azure-mgmt-iotcentral==10.0.0b2
+azure-mgmt-iothub==3.0.0
+azure-mgmt-iothubprovisioningservices==1.1.0
+azure-mgmt-keyvault==10.3.0
+azure-mgmt-kusto==0.3.0
+azure-mgmt-loganalytics==13.0.0b4
+azure-mgmt-logic==3.0.0
+azure-mgmt-machinelearningcompute==0.4.1
+azure-mgmt-managementgroups==1.0.0
+azure-mgmt-managementpartner==0.1.1
+azure-mgmt-maps==2.0.0
+azure-mgmt-marketplaceordering==1.1.0
+azure-mgmt-media==9.0.0
+azure-mgmt-monitor==5.0.1
+azure-mgmt-msi==7.0.0
+azure-mgmt-mysqlflexibleservers==1.0.0b2
+azure-mgmt-netapp==10.1.0
+azure-mgmt-network==2.7.0
+azure-mgmt-notificationhubs==2.1.0
+azure-mgmt-nspkg==3.0.2
+azure-mgmt-policyinsights==1.1.0b4
+azure-mgmt-postgresqlflexibleservers==1.0.0
+azure-mgmt-powerbiembedded==2.0.0
+azure-mgmt-privatedns==1.0.0
+azure-mgmt-rdbms==10.2.0b17
+azure-mgmt-recoveryservices==3.0.0
+azure-mgmt-recoveryservicesbackup==9.1.0
+azure-mgmt-redhatopenshift==1.5.0
+azure-mgmt-redis==14.4.0
+azure-mgmt-relay==0.1.0
+azure-mgmt-reservations==0.2.1
+azure-mgmt-resource==23.1.1
+azure-mgmt-scheduler==2.0.0
+azure-mgmt-search==9.1.0
+azure-mgmt-security==6.0.0
+azure-mgmt-servicebus==8.2.1
+azure-mgmt-servicefabric==2.1.0
+azure-mgmt-servicefabricmanagedclusters==2.0.0b6
+azure-mgmt-servicelinker==1.2.0b3
+azure-mgmt-signalr==2.0.0b2
+azure-mgmt-sql==4.0.0b19
+azure-mgmt-sqlvirtualmachine==1.0.0b5
+azure-mgmt-storage==21.2.0
+azure-mgmt-subscription==0.2.0
+azure-mgmt-synapse==2.1.0b5
+azure-mgmt-trafficmanager==1.0.0
+azure-mgmt-web==7.2.0
+azure-monitor-query==1.2.0
+azure-multiapi-storage==1.3.0
+azure-nspkg==3.0.2
+azure-servicebus==0.21.1
+azure-servicefabric==6.3.0.0
+azure-servicemanagement-legacy==0.20.8
+azure-storage-blob==1.5.0
+azure-storage-common==1.4.2
+azure-storage-file==1.4.0
+azure-storage-queue==1.4.0
+azure-synapse-accesscontrol==0.5.0
+azure-synapse-artifacts==0.19.0
+azure-synapse-managedprivateendpoints==0.4.0
+azure-synapse-spark==0.2.0
+azureml-automl-core==1.59.0
+azureml-core==1.59.0.post1
+azureml-dataprep==5.1.6
+azureml-dataprep-native==41.0.0
+azureml-dataprep-rslex==2.22.5
+azureml-dataset-runtime==1.59.0
+azureml-pipeline==1.59.0
+azureml-pipeline-core==1.59.0
+azureml-pipeline-steps==1.59.0
+azureml-sdk==1.59.0
+azureml-telemetry==1.59.0
+azureml-train-automl-client==1.59.0
+azureml-train-core==1.59.0
+azureml-train-restclients-hyperdrive==1.59.0
+Babel==2.13.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+backports.zoneinfo==0.2.1
+bcrypt==4.3.0
+beautifulsoup4 @ file:///C:/b/abs_0agyz1wsr4/croot/beautifulsoup4-split_1681493048687/work
+billiard==4.2.1
+binaryornot==0.4.4
+bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+boto3==1.35.86
+botocore==1.35.86
+Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+branca @ file:///C:/b/abs_5fic0q0ykh/croot/branca_1675157632359/work
+brotlipy==0.7.0
+cachetools==5.3.3
+catboost==1.2.7
+category-encoders==2.6.4
+celery==5.5.2
+certifi @ file:///C:/b/abs_36eb5mzhph/croot/certifi_1690232276943/work/certifi
+cffi==1.17.1
+chardet==5.2.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+clarabel==0.6.0
+click==8.1.8
+click-didyoumean==0.3.1
+click-plugins @ file:///Users/ktietz/demo/mc3/conda-bld/click-plugins_1630665883852/work
+click-repl==0.3.0
+cligj==0.7.2
+cloudpickle==2.2.1
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+colorlog==6.9.0
+colour==0.1.5
+comm==0.2.2
+config==0.5.1
+configobj==5.0.9
+contextlib2==21.6.0
+contourpy @ file:///C:/b/abs_d5rpy288vc/croots/recipe/contourpy_1663827418189/work
+cookiecutter==2.6.0
+cramjam==2.10.0
+cryptography==41.0.7
+cssutils==2.10.2
+cvxpy==1.4.1
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+Cython==3.0.11
+daal4py==2024.5.0
+dacite==1.8.1
+dash==2.14.0
+dash-bootstrap-components==1.6.0
+dash-core-components==2.0.0
+dash-cytoscape==1.0.2
+dash-html-components==2.0.0
+dash-table==5.0.0
+dash-testing-stub==0.0.2
+dash_auth==2.3.0
+dask==2023.5.0
+databricks-cli==0.18.0
+dataframe-image==0.2.3
+deap==1.4.1
+debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+Deprecated==1.2.15
+deprecation==2.1.0
+dictdiffer==0.9.0
+dill==0.3.9
+diskcache==5.6.3
+distlib==0.3.1
+distributed==2023.5.0
+distro==1.9.0
+docker==6.1.3
+dpath==2.2.0
+dtreeviz==2.2.2
+dulwich==0.22.4
+dvc==3.42.0
+dvc-data==3.8.0
+dvc-http==2.32.0
+dvc-objects==3.0.6
+dvc-render==1.0.1
+dvc-studio-client==0.20.0
+dvc-task==0.40.2
+ecos==2.0.12
+entrypoints @ file:///C:/ci/entrypoints_1649926621247/work
+et-xmlfile==1.1.0
+evidently==0.2.8
+exceptiongroup==1.1.3
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+explainerdashboard==0.4.7
+fabric==3.2.2
+fairlearn==0.7.0
+Faker==22.0.0
+fastapi==0.115.6
+fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work
+fastparquet==2024.2.0
+ffmpy==0.5.0
+filelock==3.16.1
+Fiona==1.9.1
+Flask==2.2.3
+Flask-WTF==1.2.1
+flask_simplelogin==0.2.0
+flatbuffers==24.3.25
+flatten-dict==0.4.2
+flufl.lock==7.1.1
+folium @ file:///C:/b/abs_da1gvm65eq/croot/folium_1675353720461/work
+fonttools==4.25.0
+fqdn==1.5.1
+frozendict==2.3.10
+frozenlist==1.4.1
+fs==2.4.16
+fsspec==2024.12.0
+fugue==0.8.6
+fugue-sql-antlr==0.2.2
+functions==0.7.0
+funcy==2.0
+fusepy==3.0.1
+future==1.0.0
+gast==0.4.0
+GDAL==3.6.2
+geopandas @ file:///C:/b/abs_b25zn7iayv/croot/geopandas_1675672057824/work
+geostatspy==0.0.26
+gevent==24.2.1
+gitdb==4.0.11
+GitPython==3.1.43
+google==3.0.0
+google-ai-generativelanguage==0.1.0
+google-api-core==2.19.0
+google-api-python-client==2.134.0
+google-auth==2.30.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.0.0
+google-cloud==0.34.0
+google-cloud-vision==3.7.2
+google-generativeai==0.1.0rc1
+google-pasta==0.2.0
+googleapis-common-protos==1.63.1
+gradio==3.50.2
+gradio_client==0.6.1
+grandalf==0.8
+graphviz==0.20.1
+greenlet==3.1.1
+grpcio==1.64.1
+grpcio-status==1.62.2
+gto==1.6.2
+h11==0.14.0
+h2o==3.46.0.6
+h5py==3.11.0
+html2image==2.0.4.3
+html5lib==1.1
+htmlmin @ file:///tmp/build/80754af9/htmlmin_1605825795554/work
+httpcore==1.0.7
+httplib2==0.22.0
+httpx==0.28.1
+huggingface-hub==0.27.0
+humanfriendly==10.0
+hydra-core==1.3.2
+hyperopt==0.2.7
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+ImageHash @ file:///C:/b/abs_5cw9y4odp1/croot/imagehash_1679418699403/work
+imageio==2.33.1
+imbalanced-learn==0.12.4
+importlib-metadata==5.2.0
+importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
+iniconfig==2.0.0
+interpret==0.6.6
+interpret-core==0.6.6
+invoke==2.2.0
+ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
+ipython @ file:///C:/b/abs_254uk73z5b/croot/ipython_1691532131313/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets==8.1.5
+iso8601==2.1.0
+isodate==0.7.2
+isoduration==20.11.0
+iterative-telemetry==0.0.10
+itsdangerous==2.1.2
+javaproperties==0.5.2
+jedi @ file:///C:/ci/jedi_1644315425835/work
+jeepney==0.9.0
+Jinja2 @ file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work
+jmespath==1.0.1
+joblib @ file:///C:/b/abs_1anqjntpan/croot/joblib_1685113317150/work
+json5==0.9.14
+jsondiff==2.0.0
+jsonpickle==4.0.2
+jsonpointer==2.4
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+jupyter-dash==0.4.2
+jupyter-events==0.8.0
+jupyter-server @ file:///C:/b/abs_1cfi3__jl8/croot/jupyter_server_1671707636383/work
+jupyter-ydoc==0.2.5
+jupyter_client @ file:///C:/b/abs_d8fk_kz9zk/croot/jupyter_client_1676330195659/work
+jupyter_core @ file:///C:/b/abs_9d0ttho3bs/croot/jupyter_core_1679906581955/work
+jupyter_server_fileid==0.9.0
+jupyter_server_ydoc==0.8.0
+jupyterlab==3.6.4
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-stickyland==0.2.3
+jupyterlab_server==2.25.0
+jupyterlab_widgets==3.0.13
+kaleido==0.2.1
+keras==2.13.1
+kiwisolver @ file:///C:/b/abs_88mdhvtahm/croot/kiwisolver_1672387921783/work
+kmodes==0.12.2
+knack==0.11.0
+kombu==5.5.3
+libclang==18.1.1
+lightgbm==4.3.0
+llvmlite==0.41.1
+locket==1.0.0
+logo==1.0.0
+lxml @ file:///C:/b/abs_9e7tpg2vv9/croot/lxml_1695058219431/work
+m2cgen==0.10.0
+Mako==1.3.8
+mapclassify @ file:///C:/b/abs_0csw0bgpps/croot/mapclassify_1675157746442/work
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe @ file:///C:/ci/markupsafe_1654489871526/work
+matplotlib==3.6.0
+matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661934035815/work
+mdurl==0.1.2
+microsoft-security-utilities-secret-masker==1.0.0b3
+missingno==0.5.2
+mistune==0.8.4
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+mlflow==1.30.1
+mlxtend==0.23.1
+moto==5.0.24
+msal==1.31.0
+msal-extensions==1.2.0
+msgpack==1.1.0
+msrest==0.7.1
+msrestazure==0.6.4.post1
+multidict==6.0.5
+multimethod @ file:///C:/b/abs_edzd6tvn7_/croot/multimethod_1687531689410/work
+multiprocess==0.70.17
+multitasking==0.0.11
+munch @ file:///Users/ktietz/demo/mc3/conda-bld/munch_1630566382504/work
+munkres==1.1.4
+narwhals==1.19.0
+nbclassic @ file:///C:/b/abs_c8_rs7b3zw/croot/nbclassic_1681756186106/work
+nbclient @ file:///C:/ci/nbclient_1650290386732/work
+nbconvert @ file:///C:/b/abs_4av3q4okro/croot/nbconvert_1668450658054/work
+nbformat @ file:///C:/b/abs_5a2nea1iu2/croot/nbformat_1694616866197/work
+ndg-httpsclient==0.5.1
+nest-asyncio @ file:///C:/b/abs_3a_4jsjlqu/croot/nest-asyncio_1672387322800/work
+networkx @ file:///C:/b/abs_e6gi1go5op/croot/networkx_1690562046966/work
+nltk==3.8.1
+notebook @ file:///C:/b/abs_e2qn6c85jb/croot/notebook_1690985290943/work
+notebook_shim @ file:///C:/b/abs_ebfczttg6x/croot/notebook-shim_1668160590914/work
+numba==0.58.1
+numexpr @ file:///C:/b/abs_afm0oewmmt/croot/numexpr_1683221839116/work
+numpy==1.23.5
+oauthlib==3.2.2
+omegaconf==2.3.0
+openpyxl==3.1.2
+opt-einsum==3.3.0
+optuna==4.1.0
+orjson==3.10.12
+osqp==0.6.3
+outcome==1.2.0
+oyaml==1.0
+packaging==21.3
+pandas @ file:///C:/b/abs_b9kefbuby2/croot/pandas_1677835593760/work
+pandas-profiling @ file:///C:/b/abs_930ksw9xuo/croot/pandas-profiling_1674806838540/work
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+paramiko==3.5.1
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+partd==1.4.1
+pathspec==0.12.1
+patsy==0.5.3
+peewee==3.17.0
+pefile==2024.8.26
+percy==2.0.2
+phik @ file:///C:/b/abs_3e2w3imq8h/croot/phik_1670955821757/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///C:/b/abs_20ztcm8lgk/croot/pillow_1696580089746/work
+pipenv==2020.11.15
+pkginfo==1.12.1.2
+pkgutil_resolve_name @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_81wm45v3kb/croots/recipe/pkgutil-resolve-name_1661463352381/work
+platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
+plotly==5.17.0
+plotly-resampler==0.10.0
+pluggy==1.5.0
+pmdarima==2.0.4
+portalocker==2.10.1
+prometheus-client @ file:///C:/Windows/TEMP/abs_ab9nx8qb08/croots/recipe/prometheus_client_1659455104602/work
+prometheus_flask_exporter==0.23.1
+prompt-toolkit @ file:///C:/b/abs_6coz5_9f2s/croot/prompt-toolkit_1672387908312/work
+proto-plus==1.24.0
+protobuf==4.25.3
+psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+py4j==0.10.9.7
+pyaml==24.4.0
+pyarrow==17.0.0
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pybaobabdt==1.0.1
+pybind11==2.11.1
+pycaret==3.2.0
+pycomposefile==0.0.32
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodomex==3.20.0
+pydantic @ file:///C:/b/abs_9byjrk31gl/croot/pydantic_1695798904828/work
+pydataset==0.2.0
+pydot==4.0.0
+pydub==0.25.1
+pyee==11.1.0
+pygit2==1.13.3
+PyGithub==1.59.1
+Pygments @ file:///C:/b/abs_fay9dpq4n_/croot/pygments_1684279990574/work
+pygtrie==2.5.0
+pyinstaller==6.10.0
+pyinstaller-hooks-contrib==2024.8
+PyJWT==2.9.0
+PyKrige==1.7.1
+pymsalruntime==0.17.1
+PyNaCl==1.5.0
+pynndescent==0.5.13
+pyod==2.0.2
+pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+pyportfolioopt==1.5.5
+pyppeteer==2.0.0
+pyproj @ file:///C:/ci/pyproj_1614278136892/work
+pyreadline3==3.5.4
+pyrsistent @ file:///C:/ci/pyrsistent_1636111468851/work
+pyseto==1.7.9
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+pyspark==3.5.4
+pytest==8.3.4
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-json-logger==2.0.7
+python-multipart==0.0.20
+python-slugify==8.0.4
+pytz==2022.7.1
+PyWavelets @ file:///C:/b/abs_a8r4b1511a/croot/pywavelets_1670425185881/work
+pywin32==305.1
+pywin32-ctypes==0.2.3
+pywinpty @ file:///C:/b/abs_73vshmevwq/croot/pywinpty_1677609966356/work/target/wheels/pywinpty-2.0.10-cp38-none-win_amd64.whl
+PyYAML==6.0
+pyzmq @ file:///C:/ci/pyzmq_1657616005830/work
+qdldl==0.1.7.post0
+qpd==0.4.4
+querystring-parser==1.2.4
+ray==2.10.0
+referencing==0.30.2
+regex==2023.10.3
+replit==3.3.1
+requests==2.31.0
+requests-oauthlib==2.0.0
+responses==0.25.3
+retrying==1.3.4
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==14.0.0
+rpds-py==0.10.6
+rsa==4.9
+Rtree @ file:///C:/b/abs_e116ltblik/croot/rtree_1675157871717/work
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.8
+s3transfer==0.10.4
+SALib==1.4.8
+schemdraw==0.15
+scikit-base==0.5.2
+scikit-gstat==1.0.12
+scikit-learn==1.3.2
+scikit-learn-intelex==2024.5.0
+scikit-optimize==0.10.2
+scikit-plot==0.3.7
+scipy==1.10.1
+scmrepo==2.0.4
+scp==0.13.6
+scs==3.2.4.post1
+seaborn @ file:///C:/b/abs_68ltdkoyoo/croot/seaborn_1673479199997/work
+SecretStorage==3.3.3
+segyio==1.9.12
+selenium==4.2.0
+semantic-version==2.10.0
+semver==3.0.4
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+shap==0.44.1
+shapely @ file:///C:/b/abs_e8n_rzfcjr/croot/shapely_1680636303476/work
+shellingham==1.5.4
+shortuuid==1.0.13
+shtab==1.7.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sktime==0.21.1
+slicer==0.0.7
+smmap==5.0.1
+sniffio @ file:///C:/ci/sniffio_1614030707456/work
+sortedcontainers==2.4.0
+soupsieve @ file:///C:/b/abs_bbsvy9t4pl/croot/soupsieve_1696347611357/work
+SQLAlchemy==1.4.54
+sqlglot==26.0.1
+sqlparse==0.5.3
+sqltrie==0.11.2
+sshtunnel==0.1.5
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+starlette==0.41.3
+statsforecast==1.5.0
+statsmodels @ file:///C:/b/abs_bdqo3zaryj/croot/statsmodels_1676646249859/work
+stopit==1.1.2
+tabulate==0.9.0
+tangled-up-in-unicode @ file:///C:/b/abs_90dymc0t9h/croot/tangled-up-in-unicode_1668545233574/work
+tbats==1.1.3
+tbb==2021.13.1
+tblib==3.0.0
+tenacity==8.2.3
+tensorboard==2.13.0
+tensorboard-data-server==0.7.2
+tensorboardX==2.6.2.2
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.4.0
+terminado @ file:///C:/b/abs_25nakickad/croot/terminado_1671751845491/work
+text-unidecode==1.3
+threadpoolctl==3.5.0
+tinycss2 @ file:///C:/b/abs_52w5vfuaax/croot/tinycss2_1668168823131/work
+tomli==2.0.1
+tomlkit==0.13.2
+toolz==1.0.0
+tornado @ file:///C:/b/abs_0cbrstidzg/croot/tornado_1696937003724/work
+TPOT==0.12.1
+tqdm @ file:///C:/b/abs_0axbz66qik/croots/recipe/tqdm_1664392691071/work
+traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
+triad==0.9.1
+trio==0.22.2
+trio-websocket==0.11.1
+tsdownsample==0.1.3
+tune-sklearn==0.5.0
+typeguard==4.4.0
+typer==0.15.4
+types-python-dateutil==2.8.19.14
+typing_extensions==4.12.2
+tzdata==2025.2
+umap-learn==0.5.7
+update-checker==0.18.0
+uri-template==1.3.0
+uritemplate==4.1.1
+urllib3==2.2.3
+urllib3-secure-extra==0.1.0
+uvicorn==0.33.0
+vine==5.1.0
+virtualenv==20.2.1
+virtualenv-clone==0.5.4
+visions @ file:///C:/b/abs_c40xr2nrdd/croot/visions_1668114363476/work
+voluptuous==0.14.2
+waitress==2.1.2
+watermark==2.4.3
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.3.3
+websockets==10.4
+Werkzeug==2.2.3
+widgetsnbextension==4.0.13
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wordcloud==1.9.2
+wrapt==1.16.0
+wsproto==1.2.0
+WTForms==3.1.2
+xgboost==2.0.3
+xmltodict==0.14.2
+xxhash==3.5.0
+xyzservices @ file:///C:/b/abs_8bh3h2qh76/croot/xyzservices_1675159066824/work
+y-py==0.6.2
+yarl==1.9.4
+ydata-profiling==4.6.0
+yellowbrick==1.5
+yfinance==0.2.33
+ypy-websocket==0.8.4
+zc.lockfile==3.0.post1
+zict==3.0.0
+zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
+zope.event==5.0
+zope.interface==7.2
